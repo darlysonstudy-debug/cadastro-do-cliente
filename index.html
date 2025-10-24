@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1 style="background-color:aquamarine; width: 300px;">Cadastro do Cliente</h1><br>
+  <p>Preencha os campos abaixo para registrar os seus interesses aos serviços da nossa empresa. </p><br>
+  <p>Informações Pessoais</p>
+
+  <form action="/action_page.php">
+    <label for="Nome completo:">Nome completo:</label>
+    <input type="text" id="Nome completo" name="Nome completo" value="Digite seu nome:" 
+      for="Email">Email:</label>
+    <input type="text" id="Email" name="Email" value="Digite seu email:" for="Crie uma senha">Crie uma
+    senha:</label>
+    <input type="text" id="Crie uma senha:" name="Crie uma senha:" value=""  action="/action_page.php">
+    <label for="datemin">Data de nascimento:</label>
+    <input type="date" id="datemin" name="datemin" min=""><br>
+    <p>Contato e Localizaçaõ:</p>
+    <label for="Telefone">Telefone:</label>
+    <input type="text" id="Telefone" name="Telefone"  for="Cidade">Cidade:</label>
+    <input type="text" id="Cidade" name="Cidade"  id="Estado" name="Estado" size="4" multiple>
+    <label for="Estado">Selecione o seu estado:</label>
+    <input type="text" id="Estado" name="Estado" value=""
+    <p>Preferencias De Serviços</p><br>
+    <p>Deseja receber novidades por email:</p>
+    <input type="radio" id="Sim" name="" value="Sim">
+    <label for="Sim">Sim</label><br>
+    <input type="radio" id="Naõ" name="" value="Não">
+    <label for="Não">Não</label><br>
+    <p>Selecione os Serviços de interesse:</p>
+    <input type="checkbox" id="Desenvolvimento web" name="" value="">
+    <label for="Desenvolvimento web">Desenvolvimento web</label>
+    <input type="checkbox" id="Design digital" name="" value="">
+    <label for="Design digital">Design digital</label><input type="checkbox" id="Design digital"  type="checkbox"
+      id="Redes de computadores" name="Redes de computadores" value="">
+    <label for="Redes de computadores">Redes de computadores</label>
+    <br>
+    <p>Comentarios</p><br>
+    <p>Deixe uma mensagem(opcional):</p>
+
+    <form action="/action_page.php">
+      <textarea name="message" rows="10" cols="30"></textarea>
+      <br><br>
+
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </form>
+
+
+
+</body>
+
+
+</html>
